@@ -2,10 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 li, a{
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
@@ -40,4 +40,45 @@ header{
 video{
     height: auto;
     width: 100%;
+}
+
+.contenedor-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+img{
+    border-radius: 50%;
+    height: 300px;
+    padding: 20px;
+}
+
+.contenedor-texto{
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contenedor-texto p{
+    text-align: justify;
+}
+
+.btn-conoce{
+    background-color: #00c2cb;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+}
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
 }
